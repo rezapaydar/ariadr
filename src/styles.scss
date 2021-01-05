@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+
+@font-face{
+  font-family:vazir;
+  src:url('./assets/font/Vazir.ttf')
+}
+@font-face{
+  font-family:vazirthin;
+  src:url('./assets/font/Vazir-Thin.ttf')
+}
+@font-face{
+  font-family:vazirlight;
+  src:url('./assets/font/Vazir-Light.ttf')
+}
+@font-face{
+  font-family:vazirmedium;
+  src:url('./assets/font/Vazir-Medium.ttf')
+}
+@font-face{
+  font-family:vazirbold;
+  src:url('./assets/font/Vazir-Bold.ttf')
+}
+h1,h2,h3,h4,h5,h6{
+font-family: vazirbold;
+}
+p,a,span,button{
+font-family: vazirmedium;
+direction: rtl;
+}
+small{
+font-family: vazirthin;
+
+}
